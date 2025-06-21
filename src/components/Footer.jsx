@@ -16,13 +16,13 @@ const Footer = () => {
                     <div className="w-full max-w-[1200px] mx-auto p-12 flex justify-between flex-col-reverse md:flex-row text-slate-300 bg-[var(--VeryDarkCyan)]">
                         <div className="md:w-1/2">
                             <div className="">
-                                <img src={logo} alt="huddlesLogo" className='logof fill-amber-200 bg-slate-50 p-2 rounded-sm w-38 mb-4' />
+                                <img src={logo} alt="huddlesLogo" className='logof filter brightness-0 invert p-2 rounded-sm w-38 mb-4' />
                                 <p className='mb-8 open-sans-sm max-w-[350px]'>We give you the best experience with user interaction. You can reach out to us using the available details below.</p>
                             </div>
                             <div className="contact open-sans-sm">
                                 <div className="flex items-center mb-4">
                                     <img src={phoneIcon} alt="huddlesLogo" className='mr-6 h-4' />
-                                    <p className=''>Phone: +1-543-123-4567</p>
+                                    <p className=''>Phone: +1-543-123-456</p>
                                 </div>
                                 <div className="flex items-center mb-4">
                                     <img src={emailIcon} alt="huddlesLogo" className='mr-6 h-4' />
